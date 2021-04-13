@@ -1,0 +1,27 @@
+<h1>There are 5 words in your text</h1>
+
+<h2>Text</h2>
+{{Jason}}
+
+<h3>Word Count:</h3>
+{%for number, counttotal in men%}
+{{number}}
+<br/>
+{{counttotal}}
+<br/>
+{% endfor %}
+
+<h3>Word Count two:</h3>
+{%for number, counttotal in apple%}
+{{number}}-{{counttotal}},
+
+{% endfor %}
+<br/>
+<h4><a href="{%url 'dad'%}">Start Over</a></h4>
+
+
+
+
+
+
+
