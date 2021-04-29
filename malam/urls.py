@@ -20,7 +20,7 @@ from . import baby
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('jam/',baby.bam),
-    path('malaysia/',baby.mom,name='dad'),
+    path('cameron/',baby.mom,name='dad'),
     path('',baby.girl, name='count'),
     path('about/',baby.mem,name='joyce'),
     path('limpe/',baby.son)
